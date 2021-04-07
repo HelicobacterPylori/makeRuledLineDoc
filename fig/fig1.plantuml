@@ -1,0 +1,27 @@
+@startuml fig1
+
+skinparam classAttributeIconSize 0
+'skinparam monochrome true
+skinparam shadowing false
+
+[領域設定PGM] as pgm1
+note bottom of pgm1 : "様式のどの部分に文章を組み込むか設定"
+
+[PDF作成PGM] as pgm2
+note right of pgm2 : "設定に従い文章を組み込んだPDFを作成"
+
+(様式ファイル) as form
+(設定ファイル) as ini
+(markdownファイル) as md
+(CSSファイル) as css
+(PDFファイル) as pdf
+
+form --> pgm1
+form --> pgm2
+pgm1 <-> ini
+ini -> pgm2
+md --> pgm2
+css --> pgm2
+pgm2 --> pdf
+
+@enduml
