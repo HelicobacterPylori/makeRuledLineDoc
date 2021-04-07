@@ -30,7 +30,7 @@ markdownで作った文章や図を、決まった様式に当てはめてPDF化
 
 ### 構想図
 
-@import "fig/fig1.svg"
+![構想図](https://raw.githubusercontent.com/HelicobacterPylori/makeRuledLineDoc/de8e41c20571e1a3131d8e4d9b5f5dc6adc7c271/fig/fig1.svg)
 
 ## 要求事項
 
