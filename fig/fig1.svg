@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="246px" preserveAspectRatio="none" style="width:810px;height:246px;" version="1.1" viewBox="0 0 810 246" width="810px" zoomAndPan="magnify"><defs/><g><!--MD5=[02d10d08d9587b5e8a7901b020a867e4]
-entity pgm1--><rect fill="#FEFECE" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="124" x="68.5" y="104"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="172.5" y="109"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="170.5" y="111"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="170.5" y="115"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="83.5" y="136.9951">領域設定PGM</text><path d="M6,213 L6,238.1328 A0,0 0 0 0 6,238.1328 L255,238.1328 A0,0 0 0 0 255,238.1328 L255,223 L245,213 L134.5,213 L130.5,150.0939 L126.5,213 L6,213 A0,0 0 0 0 6,213 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M245,213 L245,223 L255,223 L245,213 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="228" x="12" y="230.0669">"様式のどの部分に文章を組み込むか設定"</text><!--MD5=[c66565eb6161023ccd2c09bcd60f86d1]
-entity pgm2--><rect fill="#FEFECE" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="126" x="392.5" y="104"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="498.5" y="109"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="496.5" y="111"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="496.5" y="115"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="407.5" y="136.9951">PDF作成PGM</text><path d="M553.5,114.5 L553.5,123 L518.6543,127 L553.5,131 L553.5,139.6328 A0,0 0 0 0 553.5,139.6328 L803.5,139.6328 A0,0 0 0 0 803.5,139.6328 L803.5,124.5 L793.5,114.5 L553.5,114.5 A0,0 0 0 0 553.5,114.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M793.5,114.5 L793.5,124.5 L803.5,124.5 L793.5,114.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="229" x="559.5" y="131.5669">"設定に従い文章を組み込んだPDFを作成"</text><ellipse cx="201.5766" cy="24.9153" fill="#FEFECE" rx="65.0766" ry="15.4153" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="159.0766" y="28.6629">様式ファイル</text><ellipse cx="292.7353" cy="126.8471" fill="#FEFECE" rx="64.7353" ry="15.3471" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="250.7353" y="130.5946">設定ファイル</text><ellipse cx="419.288" cy="24.8576" fill="#FEFECE" rx="82.288" ry="18.8576" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="356.4505" y="27.9838">markdownファイル</text><ellipse cx="602.42" cy="24.984" fill="#FEFECE" rx="65.42" ry="15.484" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="559.42" y="28.7316">CSSファイル</text><ellipse cx="455.42" cy="225.484" fill="#FEFECE" rx="65.42" ry="15.484" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="412.42" y="229.2316">PDFファイル</text><!--MD5=[1ffb336e86b60fa21beeafbbe809d720]
-link form to pgm1--><path d="M190.7166,40.4916 C179.8249,56.1389 162.7708,80.6391 149.5881,99.5776 " fill="none" id="form-to-pgm1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="146.6679,103.7729,155.0926,98.6715,149.5244,99.6692,148.5267,94.101,146.6679,103.7729" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d4c007881573e4578b5e6160efcca9b1]
-link form to pgm2--><path d="M234.7061,38.3347 C274.8292,54.4472 343.1723,81.892 393.2179,101.9891 " fill="none" id="form-to-pgm2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="398.0023,103.9104,391.1412,96.8446,393.3625,102.0471,388.1599,104.2684,398.0023,103.9104" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[54cfc8e7148162f1b75d4753d349c4f5]
-link pgm1 to ini--><path d="M197.7333,127 C205.9961,127 214.2589,127 222.5216,127 " fill="none" id="pgm1-ini" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="227.6664,127,218.6664,123,222.6664,127,218.6664,131,227.6664,127" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="192.5156,127,201.5156,131,197.5156,127,201.5156,123,192.5156,127" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[093fdc064a6684939df3377c082026f0]
-link ini to pgm2--><path d="M357.127,127 C367.162,127 377.197,127 387.2321,127 " fill="none" id="ini-to-pgm2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="392.4798,127,383.4798,123,387.4798,127,383.4798,131,392.4798,127" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[21323da846e23a47603c1d5baf381fe9]
-link md to pgm2--><path d="M426.2713,44.1854 C431.7449,59.6938 439.5248,81.7369 445.6821,99.1827 " fill="none" id="md-to-pgm2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="447.3725,103.9721,448.149,94.1539,445.7084,99.2572,440.6051,96.8165,447.3725,103.9721" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d785f6a593c0720936112c5ba5a34e09]
-link css to pgm2--><path d="M581.1249,39.8317 C558.147,55.7756 521.1658,81.436 493.2645,100.796 " fill="none" id="css-to-pgm2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="488.8681,103.8467,498.5427,102.0024,492.9761,100.9963,493.9821,95.4296,488.8681,103.8467" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f1447b41f06972d634a655058d286e22]
-link pgm2 to pdf--><path d="M455.5,150.0939 C455.5,166.6462 455.5,188.7515 455.5,204.7451 " fill="none" id="pgm2-to-pdf" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="455.5,209.9179,459.5,200.9179,455.5,204.9179,451.5,200.9179,455.5,209.9179" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[46cd1c33a03592b52930a6796eb0881c]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="239px" preserveAspectRatio="none" style="width:819px;height:239px;" version="1.1" viewBox="0 0 819 239" width="819px" zoomAndPan="magnify"><defs/><g><!--MD5=[02d10d08d9587b5e8a7901b020a867e4]
+entity pgm1--><rect fill="#FEFECE" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="124" x="63.5" y="97"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="167.5" y="102"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="165.5" y="104"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="165.5" y="108"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="78.5" y="129.9951">領域設定PGM</text><path d="M6,206 L6,231.1328 A0,0 0 0 0 6,231.1328 L245,231.1328 A0,0 0 0 0 245,231.1328 L245,216 L235,206 L129.5,206 L125.5,143.0939 L121.5,206 L6,206 A0,0 0 0 0 6,206 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M235,206 L235,216 L245,216 L235,206 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="12" y="223.0669">様式のどこに文章などを組み込むか設定</text><!--MD5=[c66565eb6161023ccd2c09bcd60f86d1]
+entity pgm2--><rect fill="#FEFECE" height="46.2969" style="stroke:#A80036;stroke-width:1.5;" width="126" x="387.5" y="97"/><rect fill="#FEFECE" height="10" style="stroke:#A80036;stroke-width:1.5;" width="15" x="493.5" y="102"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="491.5" y="104"/><rect fill="#FEFECE" height="2" style="stroke:#A80036;stroke-width:1.5;" width="4" x="491.5" y="108"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="402.5" y="129.9951">PDF作成PGM</text><path d="M548.5,107.5 L548.5,116 L513.8398,120 L548.5,124 L548.5,132.6328 A0,0 0 0 0 548.5,132.6328 L812.5,132.6328 A0,0 0 0 0 812.5,132.6328 L812.5,117.5 L802.5,107.5 L548.5,107.5 A0,0 0 0 0 548.5,107.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><path d="M802.5,107.5 L802.5,117.5 L812.5,117.5 L802.5,107.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="243" x="554.5" y="124.5669">設定に従い文章などを組み込んだPDFを作成</text><ellipse cx="126.5766" cy="21.4153" fill="#FEFECE" rx="65.0766" ry="15.4153" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="84.0766" y="25.1629">様式ファイル</text><ellipse cx="287.7353" cy="119.8471" fill="#FEFECE" rx="64.7353" ry="15.3471" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="245.7353" y="123.5946">設定ファイル</text><ellipse cx="291.7353" cy="21.3471" fill="#FEFECE" rx="64.7353" ry="15.3471" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="249.7353" y="25.0946">文章ファイル</text><ellipse cx="450.3197" cy="21.2671" fill="#FEFECE" rx="59.3197" ry="14.7671" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="414.3197" y="25.0147">図ファイル</text><ellipse cx="610.42" cy="21.484" fill="#FEFECE" rx="65.42" ry="15.484" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="567.42" y="25.2316">CSSファイル</text><ellipse cx="450.42" cy="218.484" fill="#FEFECE" rx="65.42" ry="15.484" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="407.42" y="222.2316">PDFファイル</text><!--MD5=[1ffb336e86b60fa21beeafbbe809d720]
+link form to pgm1--><path d="M126.3393,37.3257 C126.1912,51.9137 125.9679,73.9096 125.7889,91.5466 " fill="none" id="form-to-pgm1" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="125.7349,96.8672,129.8262,87.9084,125.7858,91.8675,121.8267,87.827,125.7349,96.8672" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d4c007881573e4578b5e6160efcca9b1]
+link form to pgm2--><path d="M166.8797,33.7759 C220.7771,50.1614 317.0001,79.4144 382.2631,99.2552 " fill="none" id="form-to-pgm2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="387.2995,100.7863,379.852,94.3415,382.5157,99.332,377.5252,101.9957,387.2995,100.7863" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[54cfc8e7148162f1b75d4753d349c4f5]
+link pgm1 to ini--><path d="M192.7333,120 C200.9961,120 209.2589,120 217.5216,120 " fill="none" id="pgm1-ini" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="222.6664,120,213.6664,116,217.6664,120,213.6664,124,222.6664,120" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="187.5156,120,196.5156,124,192.5156,120,196.5156,116,187.5156,120" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[093fdc064a6684939df3377c082026f0]
+link ini to pgm2--><path d="M352.127,120 C362.162,120 372.197,120 382.2321,120 " fill="none" id="ini-to-pgm2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="387.4798,120,378.4798,116,382.4798,120,378.4798,124,387.4798,120" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[21323da846e23a47603c1d5baf381fe9]
+link md to pgm2--><path d="M314.961,36.034 C339.6614,51.3358 379.0462,75.7346 409.0099,94.297 " fill="none" id="md-to-pgm2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="413.3596,96.9916,407.8152,88.8516,409.1091,94.3585,403.6022,95.6524,413.3596,96.9916" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d9767480f690f6d71bc3d83c06d7a350]
+link img to pgm2--><path d="M450.5,36.8906 C450.5,51.405 450.5,73.5238 450.5,91.2946 " fill="none" id="img-to-pgm2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="450.5,96.6569,454.5,87.6569,450.5,91.6569,446.5,87.6569,450.5,96.6569" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d785f6a593c0720936112c5ba5a34e09]
+link css to pgm2--><path d="M586.8914,36.034 C562.0357,51.3358 522.4032,75.7346 492.251,94.297 " fill="none" id="css-to-pgm2" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="487.874,96.9916,497.6351,95.6796,492.1318,94.3703,493.4411,88.8671,487.874,96.9916" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f1447b41f06972d634a655058d286e22]
+link pgm2 to pdf--><path d="M450.5,143.0939 C450.5,159.6462 450.5,181.7515 450.5,197.7451 " fill="none" id="pgm2-to-pdf" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="450.5,202.9179,454.5,193.9179,450.5,197.9179,446.5,193.9179,450.5,202.9179" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f1a369a2074633ea457504784602992b]
 @startuml fig1
 
 skinparam classAttributeIconSize 0
@@ -15,14 +16,15 @@ skinparam classAttributeIconSize 0
 skinparam shadowing false
 
 [領域設定PGM] as pgm1
-note bottom of pgm1 : "様式のどの部分に文章を組み込むか設定"
+note bottom of pgm1 : 様式のどこに文章などを組み込むか設定
 
 [PDF作成PGM] as pgm2
-note right of pgm2 : "設定に従い文章を組み込んだPDFを作成"
+note right of pgm2 : 設定に従い文章などを組み込んだPDFを作成
 
 (様式ファイル) as form
 (設定ファイル) as ini
-(markdownファイル) as md
+(文章ファイル) as md
+(図ファイル) as img
 (CSSファイル) as css
 (PDFファイル) as pdf
 
@@ -31,6 +33,7 @@ form - -> pgm2
 pgm1 <-> ini
 ini -> pgm2
 md - -> pgm2
+img - -> pgm2
 css - -> pgm2
 pgm2 - -> pdf
 
@@ -42,14 +45,15 @@ skinparam classAttributeIconSize 0
 skinparam shadowing false
 
 [領域設定PGM] as pgm1
-note bottom of pgm1 : "様式のどの部分に文章を組み込むか設定"
+note bottom of pgm1 : 様式のどこに文章などを組み込むか設定
 
 [PDF作成PGM] as pgm2
-note right of pgm2 : "設定に従い文章を組み込んだPDFを作成"
+note right of pgm2 : 設定に従い文章などを組み込んだPDFを作成
 
 (様式ファイル) as form
 (設定ファイル) as ini
-(markdownファイル) as md
+(文章ファイル) as md
+(図ファイル) as img
 (CSSファイル) as css
 (PDFファイル) as pdf
 
@@ -58,6 +62,7 @@ form - -> pgm2
 pgm1 <-> ini
 ini -> pgm2
 md - -> pgm2
+img - -> pgm2
 css - -> pgm2
 pgm2 - -> pdf
 
