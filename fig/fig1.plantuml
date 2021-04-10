@@ -4,24 +4,51 @@ skinparam classAttributeIconSize 0
 'skinparam monochrome true
 skinparam shadowing false
 
-[領域設定PGM] as pgm1
-note bottom of pgm1 : 様式のどこに文章などを組み込むか設定
+component "領域設定PGM" as pgm1
+note bottom of pgm1 : 様式のどこに文章や図を組み込むか設定
 
-[PDF作成PGM] as pgm2
+component "PDF作成PGM" as pgm2
 note right of pgm2 : 設定に従い文章などを組み込んだPDFを作成
 
-(様式ファイル) as form
-(設定ファイル) as ini
-(文章ファイル) as md
-(図ファイル) as img
-(CSSファイル) as css
-(PDFファイル) as pdf
+artifact form [
+様式ファイル
+* png
+* svg
+* pdf
+]
+
+artifact ini [
+設定ファイル
+* json
+]
+
+artifact doc [
+文章ファイル
+* html
+* md
+]
+
+artifact img [
+図ファイル
+* png
+* svg
+]
+
+artifact css [
+書式ファイル
+* css
+]
+
+artifact pdf [
+PDFファイル
+* pdf
+]
 
 form --> pgm1
 form --> pgm2
 pgm1 <-> ini
 ini -> pgm2
-md --> pgm2
+doc --> pgm2
 img --> pgm2
 css --> pgm2
 pgm2 --> pdf
