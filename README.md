@@ -30,7 +30,7 @@ markdownで作った文章や図を、決まった様式に当てはめてPDF化
 
 ### 構想図
 
-![構想図](https://raw.githubusercontent.com/HelicobacterPylori/makeRuledLineDoc/5c3b96eaf1128a49ce25ab1fed002f4e5460fb49/fig/fig1.svg)
+![構想図](https://raw.githubusercontent.com/HelicobacterPylori/makeRuledLineDoc/6d7839fc09079ee6aaa38b10dcf37c35a5dd4670/fig/fig1.svg)
 
 ## 要求事項
 
@@ -42,12 +42,13 @@ markdownで作った文章や図を、決まった様式に当てはめてPDF化
 
 ## 課題（ToDo）
 
-+ ソースの初期構造決定
-  + サンプルをコピペして、`QPdfWriter`が動くのを確認した。
-+ 以下のどちらで実装するか？
-  1. 力技で、markdown→pdf
-  2. 無難？に、markdown→html→pdf
-+ markdown→html→pdfが無難だと実感してきた。
-+ 所定の領域にレンダリングさせるのは、マージン制御だけで出来そうだが、それだけで済むのか？
-+ これ以上はプロトタイプをコーディングしながら試行錯誤かな？
-+ 
++ [ ] ソースの初期構造決定
++ [x] サンプルをコピペして、`QPdfWriter`が動くのを確認した。
++ [ ] 所定の領域にレンダリングさせるのは、マージン制御だけで出来そうだが、それだけで済むのか？
++ [ ] これ以上はプロトタイプをコーディングしながら試行錯誤かな？
+
+## 試行
+
++ [ ] htmlを読み込み、サイズ調整してレンダリング後、PDFファイル出力。
++ [ ] pngファイルを背景表示して、GUIで領域設定し、jsonファイル出力。
++ [ ] 
