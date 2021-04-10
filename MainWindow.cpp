@@ -13,3 +13,10 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_actionQuit_triggered()
+{
+    /// @brief [ファイル]→[終了]
+
+    close();
+}
