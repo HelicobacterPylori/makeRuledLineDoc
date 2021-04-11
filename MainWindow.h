@@ -2,8 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QTranslator>
-#include <QLibraryInfo>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -19,6 +17,8 @@ public:
 
 private slots:
     void on_actionQuit_triggered();
+
+    void on_actionMakePdf_triggered();
 
 private:
     Ui::MainWindow *ui;

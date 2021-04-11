@@ -81,7 +81,14 @@
     <addaction name="actionFileSave"/>
     <addaction name="actionQuit"/>
    </widget>
+   <widget class="QMenu" name="menutrial">
+    <property name="title">
+     <string>trial</string>
+    </property>
+    <addaction name="actionMakePdf"/>
+   </widget>
    <addaction name="menuFile"/>
+   <addaction name="menutrial"/>
   </widget>
   <action name="actionFileNew">
    <property name="text">
@@ -101,6 +108,11 @@
   <action name="actionFileOpen">
    <property name="text">
     <string>設定ファイルを開く(&amp;)</string>
+   </property>
+  </action>
+  <action name="actionMakePdf">
+   <property name="text">
+    <string>MakePdf</string>
    </property>
   </action>
  </widget>
