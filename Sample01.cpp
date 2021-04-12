@@ -1,8 +1,5 @@
 #include "Sample01.h"
 
-
-#include "QDebug"
-
 #include <QPrinter>
 
 
@@ -11,8 +8,6 @@ Sample01::Sample01()
     /// @brief 【試行】HTMLからPDFファイル作成 (QPrinter版)
     /// @see https://wiki.qt.io/Exporting_a_document_to_PDF
     /// @see https://stackoverflow.com/questions/10697228/converting-html-to-pdf-with-qt
-
-qDebug() << "Sample01";
 
     // 出力PDFファイル名指定
     QString expFile = QFileDialog::getSaveFileName((QWidget* )0, "Export PDF", QString(), "*.pdf");

@@ -3,9 +3,12 @@
 
 #include <Sample01.h>
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+#include "Config.h"
+
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow),
+    m_config(new Config(this))
 {
     ui->setupUi(this);
 }
@@ -15,6 +18,26 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+void MainWindow::on_actionFileNew_triggered()
+{
+    /// @brief [ファイル]→[新規の設定を作成]
+
+    // @TODO ダイアログで指定させる
+    m_config->setFormFile("form.png");
+}
+
+void MainWindow::on_actionFileOpen_triggered()
+{
+    /// @brief [ファイル]→[設定ファイルを開く]
+
+}
+
+void MainWindow::on_actionFileSave_triggered()
+{
+    /// @brief [ファイル]→[設定ファイルを保存]
+
+    qDebug() << m_config->formFile();
+}
 
 void MainWindow::on_actionQuit_triggered()
 {
@@ -31,3 +54,4 @@ void MainWindow::on_actionMakePdf_triggered()
     Sample01 app;
 
 }
+
