@@ -1,0 +1,21 @@
+@startjson fig2
+{
+    "formFile":"様式ファイル名(pngなど)",
+    "pageSize": "ページサイズ",
+    "landScape" : "ページ方向",
+    "areaArray" :
+    [
+        {
+            "name": "領域名",
+            "docFile": "文書ファイル名(mdなど)",
+            "varKeyword": "可変キーワード(文書番号など)",
+            "fontName": "フォント名",
+            "fontSize": "フォントサイズ",
+            "margen-top": "上マージン(px)", 
+            "margin-left" : "左マージン(px)",
+            "width" : "幅(px)",
+            "height" : "高さ(px)"
+        }
+    ]
+}
+@endjson
