@@ -30,7 +30,11 @@ markdownで作った文章や図を、決まった様式に当てはめてPDF化
 
 ### 構想図
 
-![構想図](https://raw.githubusercontent.com/HelicobacterPylori/makeRuledLineDoc/6d7839fc09079ee6aaa38b10dcf37c35a5dd4670/fig/fig1.svg)
+![構想図](https://github.com/HelicobacterPylori/makeRuledLineDoc/blob/main/fig/fig1.png?raw=true)
+
+### 設定ファイル
+
+![設定ファイル](https://github.com/HelicobacterPylori/makeRuledLineDoc/blob/main/fig/fig2.png?raw=true)
 
 ## 要求事項
 
@@ -59,4 +63,5 @@ markdownで作った文章や図を、決まった様式に当てはめてPDF化
   + [ ] 外部から画像を取り込む。
   + [ ] 外部からCSSを取り込む。
 + 領域設定PGMに必要な要素
+  + [ ] 設定を扱うConfigクラス実装
   + [ ] pngファイルを背景表示して、GUIで領域設定し、jsonファイル出力。
