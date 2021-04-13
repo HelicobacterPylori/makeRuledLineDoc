@@ -12,8 +12,16 @@ public:
     void setFormFile(QString formFile);
     QString formFile() const;
 
+    void setPageSize(QString pageSize);
+    QString pageSize() const;
+
+    void setLandScape(QString landScape);
+    QString landScape() const;
+
 private:
     QString m_formFile;
+    QString m_pageSize;
+    QString m_landScape;
 
 };
 
