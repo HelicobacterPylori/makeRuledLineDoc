@@ -15,13 +15,13 @@ public:
     void setPageSize(QString pageSize);
     QString pageSize() const;
 
-    void setLandScape(QString landScape);
-    QString landScape() const;
+    void setOrientation(QString orientation);
+    QString orientation() const;
 
 private:
     QString m_formFile;
     QString m_pageSize;
-    QString m_landScape;
+    QString m_orientation;
 
 };
 

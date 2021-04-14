@@ -24,11 +24,11 @@ QString Config::pageSize() const
     return m_pageSize;
 }
 
-void Config::setLandScape(const QString landScape)
+void Config::setOrientation(const QString orientation)
 {
-    m_landScape = landScape;
+    m_orientation = orientation;
 }
-QString Config::landScape() const
+QString Config::orientation() const
 {
-    return m_landScape;
+    return m_orientation;
 }
