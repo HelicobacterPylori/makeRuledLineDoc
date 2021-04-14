@@ -3,7 +3,7 @@
 #include <QPrinter>
 
 
-Sample01::Sample01()
+Sample01::Sample01(Config *config)
 {
     /// @brief 【試行】HTMLからPDFファイル作成 (QPrinter版)
     /// @see https://wiki.qt.io/Exporting_a_document_to_PDF
@@ -19,6 +19,7 @@ Sample01::Sample01()
     QPrinter printer(QPrinter::PrinterResolution);
     printer.setOutputFormat(QPrinter::PdfFormat);
     printer.setPageSize(QPageSize(QPageSize::A4));
+    printer.setPageMargins(config->marginsF());
     printer.setOutputFileName(expFile);
 
     // 入力HTMLファイル指定

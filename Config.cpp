@@ -32,3 +32,12 @@ QString Config::orientation() const
 {
     return m_orientation;
 }
+
+void Config::setMarginsF(QMarginsF marginsF)
+{
+    m_marginsF = marginsF;
+}
+QMarginsF Config::marginsF()
+{
+    return m_marginsF;
+}

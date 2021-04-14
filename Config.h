@@ -2,6 +2,7 @@
 #define CONFIG_H
 
 #include <QObject>
+#include <QPrinter>
 
 class Config : public QObject
 {
@@ -18,10 +19,18 @@ public:
     void setOrientation(QString orientation);
     QString orientation() const;
 
+    void setMarginsF(QMarginsF marginsF);
+    QMarginsF marginsF();
+
 private:
     QString m_formFile;
     QString m_pageSize;
     QString m_orientation;
+
+    /// @TODO List化
+    QString m_areaName;
+    QString m_docFile;
+    QMarginsF m_marginsF;
 
 };
 

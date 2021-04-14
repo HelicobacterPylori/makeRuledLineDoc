@@ -1,7 +1,7 @@
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
 
-#include <Sample01.h>
+#include "Sample01.h"
 
 #include "Config.h"
 
@@ -30,6 +30,9 @@ void MainWindow::on_actionFileOpen_triggered()
 {
     /// @brief [ファイル]→[設定ファイルを開く]
 
+    // @TODO 画面から設定
+    m_config->setMarginsF(QMarginsF(50,300,10,50));
+
 }
 
 void MainWindow::on_actionFileSave_triggered()
@@ -51,7 +54,7 @@ void MainWindow::on_actionMakePdf_triggered()
 
     /// @brief 【試行】色々ためす
 
-    Sample01 app;
+    Sample01 app(m_config);
 
 }
 
