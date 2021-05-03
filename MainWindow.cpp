@@ -1,6 +1,7 @@
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
 
+#include <poppler-qt5.h>
 #include "Sample01.h"
 
 #include "Config.h"
