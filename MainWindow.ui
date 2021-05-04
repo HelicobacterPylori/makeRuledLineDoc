@@ -56,7 +56,7 @@
        <enum>QLayout::SetMaximumSize</enum>
       </property>
       <item>
-       <widget class="QGraphicsView" name="graphicsView"/>
+       <widget class="PdfGraphicsView" name="pdfGraphicsView"/>
       </item>
      </layout>
     </item>
@@ -116,6 +116,13 @@
    </property>
   </action>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PdfGraphicsView</class>
+   <extends>QGraphicsView</extends>
+   <header>PdfGraphicsView.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

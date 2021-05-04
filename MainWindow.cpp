@@ -1,7 +1,7 @@
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
 
-#include <poppler-qt5.h>
+//#include <poppler-qt5.h>
 #include "Sample01.h"
 
 #include "Config.h"
@@ -23,8 +23,25 @@ void MainWindow::on_actionFileNew_triggered()
 {
     /// @brief [ファイル]→[新規の設定を作成]
 
-    // @TODO ダイアログで指定させる
-    m_config->setFormFile("form.png");
+    QString selFilter = tr("PDFファイル(*.pdf)");
+    QString fileName = QFileDialog::getOpenFileName(
+        this,
+        tr("様式のPDFファイルを開く"),
+        "",
+        "",
+        &selFilter,
+        QFileDialog::DontUseCustomDirectoryIcons
+    );
+    if (fileName.isEmpty()) {
+        // キャンセル
+        return;
+    }
+
+    // Configに様式ファイル名を記憶
+    m_config->setFormFile(fileName);
+
+    // Configに従い様式ファイル表示
+    ui->pdfGraphicsView->ViewPdfForm(*m_config);
 }
 
 void MainWindow::on_actionFileOpen_triggered()

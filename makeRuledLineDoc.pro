@@ -10,6 +10,7 @@ CONFIG += c++11
 
 SOURCES += \
     Config.cpp \
+    PdfGraphicsView.cpp \
     Sample01.cpp \
     main.cpp \
     MainWindow.cpp
@@ -17,6 +18,7 @@ SOURCES += \
 HEADERS += \
     Config.h \
     MainWindow.h \
+    PdfGraphicsView.h \
     Sample01.h
 
 FORMS += \
